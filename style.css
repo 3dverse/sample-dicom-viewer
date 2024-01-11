@@ -1,0 +1,30 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  border-width: 0;
+}
+
+@media (max-width: 790px) {
+  html {
+    --spacing: 1.5rem;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100dvh;
+  background-color: black;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.canvas-container {
+  width: 100vw;
+  height: 100dvh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
